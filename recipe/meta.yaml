@@ -29,10 +29,8 @@ test:
     - comm.base_comm
   requires:
     - pip
-    - pytest
   commands:
     - pip check
-    - pytest .
 
 about:
   home: https://github.com/ipython/comm
