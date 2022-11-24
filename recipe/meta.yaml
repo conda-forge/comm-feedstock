@@ -1,5 +1,5 @@
 {% set name = "comm" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9d56c0bc699e6c47c1542c8a5681853e94654dfc68a9d858a82f644745c17061
+  sha256: f395ea64f4f261f35ffc2fbf80a62ec071375dac48cd3ea56092711e74dd063e
 
 build:
   noarch: python
@@ -18,6 +18,7 @@ requirements:
   host:
     - python >=3.6
     - pip
+    - hatchling
   run:
     - python >=3.6
     - traitlets
@@ -33,8 +34,8 @@ test:
 
 about:
   home: https://github.com/ipython/comm
-  summary: 'Python Comm implementation for the Jupyter kernel protocol'
-  description: 'Python Comm implementation for the Jupyter kernel protocol'
+  summary: Python Comm implementation for the Jupyter kernel protocol
+  description: Python Comm implementation for the Jupyter kernel protocol
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
