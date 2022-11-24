@@ -18,6 +18,7 @@ requirements:
   host:
     - python >=3.6
     - pip
+    - hatchling
   run:
     - python >=3.6
     - traitlets
@@ -28,8 +29,10 @@ test:
     - comm.base_comm
   requires:
     - pip
+    - pytest
   commands:
     - pip check
+    - pytest .
 
 about:
   home: https://github.com/ipython/comm
