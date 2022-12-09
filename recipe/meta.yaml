@@ -21,7 +21,7 @@ requirements:
     - hatchling
   run:
     - python >=3.6
-    - traitlets
+    - traitlets >=5.3
 
 test:
   imports:
