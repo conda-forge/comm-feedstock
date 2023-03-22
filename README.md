@@ -1,11 +1,11 @@
-About comm
-==========
+About comm-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/comm-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ipython/comm
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/comm-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python Comm implementation for the Jupyter kernel protocol
 
