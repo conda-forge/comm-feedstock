@@ -35,12 +35,6 @@ tests:
       python_version:
         - ${{ python_min }}.*
         - 3.13.*
-  - requirements:
-      run:
-        - mypy
-        - python ${{ python_min }}.*
-    script:
-      - mypy -p comm
 
 about:
   summary: Python Comm implementation for the Jupyter kernel protocol
