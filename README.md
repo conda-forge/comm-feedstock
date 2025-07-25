@@ -9,10 +9,6 @@ Package license: BSD-3-Clause
 
 Summary: Python Comm implementation for the Jupyter kernel protocol
 
-Development: https://github.com/ipython/comm
-
-Documentation: https://github.com/ipython/comm
-
 Python Comm implementation for the Jupyter kernel protocol
 
 Current build status
@@ -150,5 +146,6 @@ Feedstock Maintainers
 =====================
 
 * [@apmorton](https://github.com/apmorton/)
+* [@bollwyvl](https://github.com/bollwyvl/)
 * [@martinRenou](https://github.com/martinRenou/)
 
